@@ -1,0 +1,7 @@
+corillabase_makedoc.readme_generator_form:
+  path: '/admin/config/system/readme-generator'
+  defaults:
+    _form: '\Drupal\corillabase_makedoc\Form\ReadmeGeneratorForm'
+    _title: 'Generate README'
+  requirements:
+    _permission: 'administer site configuration'

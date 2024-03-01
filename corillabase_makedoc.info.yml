@@ -1,0 +1,8 @@
+name: 'Corilla Base - Site README Generator'
+type: module
+description: 'Generates README documentation for the site using GPT.'
+package: Custom
+core_version_requirement: ^8 || ^9 || ^10
+dependencies:
+  - drupal:node
+  - drupal:user

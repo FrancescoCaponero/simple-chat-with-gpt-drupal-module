@@ -1,0 +1,6 @@
+corillabase_makedoc.admin:
+  title: 'Readme Generator'
+  description: 'Generate a README for your site'
+  parent: system.admin_config_system
+  route_name: corillabase_makedoc.readme_generator_form
+  weight: 100
